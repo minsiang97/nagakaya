@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
 .App {
   text-align: center;
 }
@@ -36,3 +42,185 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: linear-gradient(to right,#E0EAFC, #CFDEF3);
+}
+
+.nagakaya {
+  display: inline-block;
+  color: rgb(43, 58, 196);
+  margin-bottom: 0;
+}
+
+.title {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 250%;
+  color: rgb(43, 58, 196)
+}
+
+.about-us {
+  text-align: justify;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.label-text {
+  font-size: larger;
+  font-weight: 600;
+  font-family: 'Merriweather', serif;
+}
+
+.label {
+  width: 155px;
+  height: 160px;
+}
+
+.label-container {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-bottom: 1px solid black;
+}
+
+.vision-div {
+  padding-top: 30%;
+  padding-bottom: 10%;
+  text-align: justify;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: larger;
+}
+
+.vision-title {
+  position: relative;
+  font-size: xx-large;
+  font-weight: 500;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+.vision-title::before{
+  content:'';
+  height:8px;
+  width:20%;
+  background:rgb(43, 58, 196);
+  position:absolute;
+  left:calc( - 10%);
+  bottom:-5px;
+}
+
+ul.value {
+  list-style-type:circle;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+.value-div {
+  padding-top: 30%;
+  padding-bottom: 10%;
+  text-align: justify;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: larger;
+}
+
+.value-title {
+  position: relative;
+  font-size: xx-large;
+  font-weight: 500;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+.value-title::before{
+  content:'';
+  height:8px;
+  width:20%;
+  background:rgb(43, 58, 196);
+  position:absolute;
+  left:calc( - 10%);
+  bottom:-5px;
+}
+
+.vision-mission {
+  border-bottom: 1px solid black;
+}
+
+.contact-container {
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  background-color: rgb(9, 9, 85);
+  color: white;
+}
+
+.text {
+  color: rgb(54, 101, 230);
+  font-size: large;
+  font-weight: 400;
+}
+
+.choose-us-container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.location {
+  font-size: large;
+  font-weight: 500;
+}
+
+.choose-us-text {
+  font-family: 'Merriweather', serif;
+  margin-top: 40px;
+  color: rgb(26, 36, 121)
+}
+
+.about-us-title {
+  font-weight: 600;
+  color: rgb(43, 58, 196)
+}
+
+.title-div {
+  border-bottom: 10px solid rgba(134, 114, 0, 0.795);
+}
+
+.why-us {
+  color: rgb(26, 36, 121)
+}
+
+@media (max-width: 992px) and (min-width:768px){
+  .vision-div{
+    padding-top: 0;
+  }
+  .value-div{
+    padding-top: 0;
+  }
+}
+
+@media (max-width:1200px) and (min-width:992px){
+  .vision-div{
+    padding-top: 20%;
+  }
+  .value-div{
+    padding-top: 20%;
+  }
+}
+
+@media (max-width:768px){
+  .vision-div{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .value-div{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
