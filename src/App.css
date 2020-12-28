@@ -107,7 +107,7 @@ body {
   content:'';
   height:8px;
   width:20%;
-  background:rgb(43, 58, 196);
+  background-color :rgb(43, 58, 196);
   position:absolute;
   left:calc( - 10%);
   bottom:-5px;
@@ -141,7 +141,7 @@ ul {
   content:'';
   height:8px;
   width:20%;
-  background:rgb(43, 58, 196);
+  background-color:rgb(43, 58, 196);
   position:absolute;
   left:calc( - 10%);
   bottom:-5px;
