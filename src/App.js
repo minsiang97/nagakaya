@@ -19,7 +19,7 @@ import './App.css';
 
 function App() {
   useEffect(() => {
-    Aos.init({duration : 1000})
+    Aos.init({duration : 1000, delay : 1000})
   }, [])
   return (
     <>
